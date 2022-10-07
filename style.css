@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: #ba042b;
+    color: white;
+    /* #eb4b5b  #c4a287 #edceb5 */
+    /* height: 10vh; */
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    overflow-y: hidden;
+    /* position: fixed; */
+    text-align: center; 
+    font-family: Arial;
+    font-weight: 200;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    margin-top: 50px;
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+
+    }
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bella {
+    border: 2px burlywood solid;
+    text-align: center;
+    font-weight: 900;
+    padding: 20px;  
+    width: 150px;
+    /* margin-top: 20px; */
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 150%;
+    color: rgb(92, 89, 89);
+    
+}
+.netflix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.watch {
+    width: 300px;
+    height:4vh;
+    background-color: #eb4b5b;
+   color: white;
+   font-weight: 200;
+   font-family: Arial;
+   font-size: larger;
+   text-align: center;
+   padding-top: 10px;
+   /* word-spacing: 4px; */
+   margin-top: 30px;
+}
+.watch:hover {
+    box-shadow: 6px 6px 20px #ba042b;
+}
+ .add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.later {
+    width: 300px;
+    height:4vh;
+    border: 1px solid #ba042b;
+   color: black;
+   font-weight: 200;
+   font-family: Arial;
+   font-size: larger;
+   text-align: center;
+   padding-top: 10px;
+   word-spacing: 4px;
+   margin-top: 5px;
+}
+.later:hover {
+    box-shadow: 6px 6px 30px #c4a287;
+}
+.tablle {
+    background-color: #ba042b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+}
+a {
+    padding: 20px;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+span {
+    border-bottom:1px dashed white;
+}
+
